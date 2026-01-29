@@ -116,7 +116,7 @@ function Cart() {
         <div className="Cart-page" key={item.id}>
           <div className="cart-img">
             <img
-              src={ImageData[product.image_key]}
+              src={ImageData[item.image_key]}
               alt={item.product_name}
             />
           </div>
