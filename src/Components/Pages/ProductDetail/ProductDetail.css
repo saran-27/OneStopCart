@@ -1,0 +1,60 @@
+.detail{
+        display: flex;
+    justify-content: space-around;
+    padding: 45px;
+    align-items: center;
+}
+.product-detail {
+    width: 45%;
+}
+ins{
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: 400;
+    color: black;padding-left: 10px;
+}
+del{
+   
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+}
+.product-img img{
+        width: 100%;
+    height: 70vh;
+}
+.product-detail h1{
+        font-size: 27px;
+    font-weight: 400;
+    text-transform: capitalize;
+
+}
+.product-detail p{
+    font-size: 17px;
+    font-weight: 300;
+    text-align: justify;
+    text-transform: capitalize;
+    line-height: 1.5;
+}
+
+@media(max-width:768px){
+    .detail {
+    display: flex;
+    flex-direction: column;
+            padding: 6px;
+                    gap: 16px;
+}
+.body{
+    overflow-y: scroll;
+}
+.heading h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #646cff;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+
+}
+
+}

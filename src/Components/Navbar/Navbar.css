@@ -1,0 +1,81 @@
+.navBar{
+    width: 100%;
+    position: sticky;
+    background: linear-gradient(359deg, #171819, #41420bcf);
+    z-index: 1000;
+    top: 0;
+}
+.nav-container{
+    display: flex;
+justify-content: space-around;
+    padding-top: 17px;
+        align-items: center;
+}
+.shop-name h2{
+   
+    font-weight: 700;
+    color: cornflowerblue;
+        font-size: 23px;
+}
+.nav-menu ul{
+    display: flex;
+       gap: 50px;
+    padding: 0px;
+    width: 100%;
+}
+.nav-menu ul li{
+list-style: none;
+font-size: 15px;
+font-weight: 400;
+color:cornflowerblue;
+cursor: pointer;
+}
+.cart-icons img{
+      width: 47px;
+    height: 6vh;
+    cursor: pointer;
+}
+.hamburger{
+    display: none;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+    
+  }
+  .nav-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    align-items: center;
+}
+
+  .nav-menu {
+    position: absolute;
+        top: 66px;
+        left: 0;
+        width: 100%;
+        display: none;
+  }
+
+  .nav-menu.active {
+    display: block;
+    background: linear-gradient(359deg, #171819, #41420bf2);
+  }
+
+  .nav-menu ul {
+    flex-direction: column;
+    padding: 15px 0;
+    text-align: center;
+  }
+
+  .nav-menu li {
+    padding: 10px 0;
+  }
+  .hamburger img{
+    width: 40px;
+        border-radius: 50px;
+}
+ 
+}
